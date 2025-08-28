@@ -27,6 +27,73 @@ body {
     width: 50%;
 }
 
+.footer-fit {
+    flex-direction: row!important;
+
+}
+.footer-input {
+    width: 206px;
+height: 34px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+gap: 10px;
+angle: 0 deg;
+opacity: 1;
+border-radius: 5px;
+border-radius: 5px 0px 0px 5px;
+border: none;
+}
+
+
+.footer-submit {
+    width: 52px;
+height: 43px;
+angle: 0 deg;
+opacity: 1;
+
+border-radius: 0px 5px 5px 0px;
+position: relative;
+border: none;
+
+
+}
+
+.search {
+    width: 70%;
+height: 32px;
+border-radius: 12px;
+padding-top: 16px;
+padding-right: 32px;
+padding-bottom: 16px;
+padding-left: 32px;
+gap: 36px;
+angle: 0 deg;
+opacity: 1;
+border-width: 2px;
+border: 2px solid #D8DBE2;
+}
+
+.site-header {
+    border: 0!important;
+}
+
+.sort-button {
+    width: 145px;
+height: 64px;
+border-radius: 12px;
+angle: 0 deg;
+opacity: 1;
+border: 2px solid #D8DBE2;
+background: linear-gradient(to left bottom, #d8dbe2, #e2e3e9, #ecebf0, #f6f3f8, #fffcff);
+margin-left: 24px;
+}
+
+.footer-fit div {
+    width: 50%;
+}
+
 .call-nav {
     position: relative;
     left: 40%;

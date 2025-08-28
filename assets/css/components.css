@@ -18,6 +18,10 @@ body {
     background: #FFFCFF;
 }
 
+.grn-btn {
+    background:#00AB80;
+}
+
 .main {
         background-image: url('../img/mainbg.png');
     background-repeat: no-repeat;

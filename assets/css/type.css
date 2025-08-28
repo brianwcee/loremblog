@@ -20,6 +20,43 @@ a, a:visited {
     color: #00AB80;
 }
 
+.sort-by {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+
+}
+
+.chevron-behind {
+    position: relative;
+}
+
+.chevron-behind:after {
+    content: "";
+    background-image: url('../img/chevron down.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 50px;
+    position: absolute;
+    left: 66%;
+    top: 19px;
+}
+
+.faq-chevron:after {
+    left: 96%!important;
+    top: 22px!important;
+}
+
+.nav-chevron {
+    left: 96%!important;
+    top: 22px!important;
+}
+
 .wht {
     color: #FFFCFF;
 }
