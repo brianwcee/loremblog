@@ -27,7 +27,7 @@
   <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Your awesome title","name":"Your awesome title","url":"http://localhost:4000/"}</script>
   <!-- End Jekyll SEO tag -->
-  <link rel="stylesheet" href="/assets/assets/assets/assets//assets/img/main.css">
+  <link rel="stylesheet" href="/assets/main.css">
   <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="/assets/css/components.css">
@@ -105,18 +105,9 @@
       <nav class="site-nav  fit nav-fit">
         <a class="site-title" rel="author" href="/"><span class="logo"><img src="/assets/img/logo.png" alt=""></span></a>
         <div>
-        
-      <ul class="nav-list nav-link">
-            <li class="chevron-behind">solutions</li>
-            <li class="chevron-behind">company</li>
-            <li class="chevron-behind">resources</li>
-            <li class="chevron-behind">learn</li>
-          </ul>
-          </div>
-            <div>
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
-          <span class="menu-icon">
+          <span class="menu-icon nav-trigger">
             <svg viewBox="0 0 18 15" width="18px" height="15px">
               <path
                 d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z" />
@@ -124,9 +115,19 @@
           </span>
         </label>
         
+      <ul class="nav-list nav-link mobile-hide">
+            <li>solutions <img src="/assets/img/chevron down.png" alt=""> </li>
+            <li>company <img src="/assets/img/chevron down.png" alt=""> </li>
+            <li>resources <img src="/assets/img/chevron down.png" alt=""> </li>
+            <li>learn <img src="/assets/img/chevron down.png" alt=""> </li>
+          </ul>
+          </div>
+            <div>
+        
+        
         <!-- <div class="trigger"><a class="page-link" href="/about/">About</a> -->
-        <span class="call-nav">
-        <span class="login-logo"></span><a class="login client-login" href="#">client login</a>
+        <span class="call-nav mobile-hide">
+        <span class="login-logo client-logo"><img src="/assets/img/person_book.png" alt=""></span><a class="login client-login" href="#">client login</a>
           <button class="book-call btn">book a discovery call</button>
           </span>
         </div>
@@ -187,19 +188,19 @@
   <div class="fit sub-footer">
     <div class="mobile-hide">
       <ul>
-        <li><img src="assets/assets/assets/assets//assets/img/footer-logo.png" alt="" class="footer-logo"></li>
+        <li><img src="/assets/img/footer-logo.png" alt="" class="footer-logo"></li>
         <li class="sub-footer-logo-text footer-logo">Yorem ipsum dolor sit amet, consectetur adipiscing elit.
         </li>
         <li>
           <div class="fit">
             <div class="social">
-              <img src="assets/assets/assets/assets//assets/img/fb.png" alt="">
+              <img src="/assets/img/fb.png" alt="">
             </div>
             <div class="social">
-              <img src="assets/assets/assets/assets//assets/img/ln.png" alt="">
+              <img src="/assets/img/ln.png" alt="">
             </div>
             <div class="social">
-              <img src="assets/assets/assets/assets//assets/img/x.png" alt="">
+              <img src="/assets/img/x.png" alt="">
             </div>
           </div>
         </li>
@@ -277,7 +278,7 @@
   <div class="mobile-show mobile-sub-footer-below desktop-hide">
     <ul class="fit mobile-footer-stretch">
       <div>
-        <li><img src="assets/assets/assets/assets//assets/img/footer-logo.png" alt="" class="footer-logo"></li>
+        <li><img src="/assets/img/footer-logo.png" alt="" class="footer-logo"></li>
       </div>
       <div>
         <li class="sub-footer-logo-text footer-logo">Yorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -285,13 +286,13 @@
         <li>
           <div class="fit">
             <div class="social">
-              <img src="assets/assets/assets/assets//assets/img/fb.png" alt="">
+              <img src="/assets/img/fb.png" alt="">
             </div>
             <div class="social">
-              <img src="assets/assets/assets/assets//assets/img/ln.png" alt="">
+              <img src="/assets/img/ln.png" alt="">
             </div>
             <div class="social">
-              <img src="assets/assets/assets/assets//assets/img/x.png" alt="">
+              <img src="/assets/img/x.png" alt="">
             </div>
           </div>
         </li>
@@ -305,16 +306,16 @@
     <div class="wrapper fit footer-fit">
 
 
-    
+
       <div>
                 <p class="footer-email">Torem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <input type="text" value="email" class="footer-input"><button class="footer-sub-title footer-submit wht grn-btn">submit</button>
             </div>
-            <div class="fit footer-link wht">
-                <p>Privacy Policy</p>
-                <p>Terms of Use</p>
-                <p>Copyright © 2025 Gorem ipsum dolor sit amet elit.</p>
-            </div>
+      <div class="footer-link wht">
+        <span>Privacy Policy</span>
+        <span>Terms of Use</span>
+        <span>Copyright © 2025 Gorem ipsum dolor sit amet elit.</span>
+      </div>
 
     </div>
 

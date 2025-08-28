@@ -47,9 +47,18 @@ vertical-align: middle;
     top: 19px;
 }
 
+.main-try-arrow:after {
+    top: 9px;
+    left: 78%!important;
+}
+
 .faq-chevron:after {
     left: 96%!important;
     top: 22px!important;
+}
+
+.main-try a:visited {
+    color: #231F20;
 }
 
 .nav-chevron {
@@ -189,7 +198,7 @@ vertical-align: middle;
 
 .case-arrow:after {
     content: "";
-    background-image: url('Arrow 7.png');
+    background-image: url('../img/Arrow 7.png');
     width: 100%;
     background-repeat: no-repeat;
     height: 50px;
@@ -203,7 +212,7 @@ vertical-align: middle;
 
 .book-arrow:after {
     content: "";
-    background-image: url('Arrow 7.png');
+    background-image: url('../img/Arrow 7.png');
     width: 100%;
     background-repeat: no-repeat;
     height: 50px;
