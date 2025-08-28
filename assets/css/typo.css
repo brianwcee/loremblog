@@ -1,0 +1,586 @@
+.nav-link {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+
+}
+
+.client-login {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+
+}
+
+.book-a-call {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+
+}
+
+.main-headline {
+    font-family: Fustat;
+font-weight: 700;
+font-style: Bold;
+font-size: 64px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -2%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.main-headline-sub {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.main-headline-blurb {
+    font-family: Fustat;
+font-weight: 400;
+font-style: Regular;
+font-size: 15px;
+leading-trim: NONE;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.try-for-free {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+
+}
+
+.explore-headline {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.explore-main-title {
+    font-family: Fustat;
+font-weight: 700;
+font-style: Bold;
+font-size: 64px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -2%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.explore-blurb {
+    font-family: Fustat;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.explore-button {
+    font-family: Fustat;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+@media (width <= 1250px) {
+        font-size: 16px;
+    }  
+
+}
+
+.graph-title {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.graph-blurb {
+    font-family: Fustat;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.graph-list {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+
+}
+
+.graph-view {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+
+}
+
+.map-main-headline {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.map-subhead {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.map-subhead-blurb {
+    font-family: Fustat;
+font-weight: 400;
+font-style: Regular;
+font-size: 15px;
+leading-trim: NONE;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.studies-headline {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.studies-main-title {
+    font-family: Fustat;
+font-weight: 700;
+font-style: Bold;
+font-size: 64px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -2%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.studies-card-title {
+font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+margin-top: 16px;
+}
+
+.studies-card-blurb {
+    font-family: Fustat;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.studies-card-read {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+
+}
+
+.faq-title {
+    font-family: Fustat;
+font-weight: 700;
+font-style: Bold;
+font-size: 64px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -2%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.faq-card-title {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+
+}
+
+.faq-card-blurb {
+    font-family: Fustat;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.logo-cards-headline {
+    font-family: Fustat;
+font-weight: 700;
+font-style: Bold;
+font-size: 64px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -2%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.logo-card-icon {
+    font-family: Fustat;
+font-weight: 700;
+font-style: Bold;
+font-size: 36px;
+leading-trim: NONE;
+line-height: 85%;
+letter-spacing: -2%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.logo-card-title {
+font-family: Fustat;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+vertical-align: middle;
+}
+
+.logo-title {
+    font-family: Fustat;
+font-weight: 700;
+font-style: Bold;
+font-size: 36px;
+leading-trim: NONE;
+line-height: 85%;
+letter-spacing: -2%;
+vertical-align: middle;
+
+background-image: linear-gradient(to right, #00ab80, #2bc377, #5ad964, #8ced47, #c3ff00);
+
+}
+
+.logo-card-sub-title {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 10%;
+vertical-align: middle;
+
+}
+
+.logo-card-blurb {
+    font-family: Fustat;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.logo-card-case-study {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+
+}
+
+.cta-headline {
+    font-family: Fustat;
+font-weight: 700;
+font-style: Bold;
+font-size: 64px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -2%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.cta-sub-head {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.cta-blurb {
+    font-family: Fustat;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.cta-book {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+
+}
+
+.cta-try-for-free {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+
+}
+
+.sub-footer-logo-text {
+    font-family: Fustat;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.sub-footer-title  {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.sub-footer-link li:not(:first-child) {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+
+}
+
+.footer-email {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+
+}
+
+.footer-submit {
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.footer-input {
+    font-family: Fustat;
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.footer-sub-title {
+    font-family: Fustat;
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.footer-link {
+    font-family: Fustat;
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.studies-card-blurb {
+    font-family: Fustat;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}

@@ -1,0 +1,159 @@
+.blog-image {
+    width: 1320px;
+    height: 600px;
+    border-radius: 10px;
+    opacity: 1;
+    overflow: hidden;
+
+}
+
+.blog-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.blog2-image {
+width: 960px;
+height: 600px;
+border-radius: 10px;
+opacity: 1;
+overflow: hidden;
+margin: 0 auto;
+}
+
+.blog2-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.blog-author {
+    margin-left: 36px;
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.blog-card {
+    width: 960px;
+    height: 446.89093017578125px;
+    border-radius: 16px;
+    opacity: 1;
+    border-width: 1px;
+    padding: 36px;
+    border: 1px solid #D8DBE2;
+    margin: 0 auto;
+}
+
+.blog-author-frame {
+    width: 306.1333312988281px;
+height: 374.89093017578125px;
+border-radius: 16px;
+gap: 32px;
+opacity: 1;
+border-width: 1px;
+padding: 32px;
+border: 1px solid #D8DBE2;
+
+}
+
+.blog-wrap {
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.blog-wrap li {
+    margin-top: 32px;
+}
+
+.blog-post {
+    width: 306px;
+}
+.blog-author-circle {
+    width: 242.13333129882812px;
+    height: 255.8909149169922px;
+    border-radius: 200px;
+    opacity: 1;
+border: 1px solid #D8DBE2;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.blog-author-circle img {
+    position: relative;
+    top: -40%;
+}
+
+.blog-footer-img {
+    width: 960px;
+height: 300px;
+border-radius: 10px;
+opacity: 1;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.blog-footer-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.blog-controls div {
+    width: 50%;
+}
+
+.next   {
+    text-align: right;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+
+.social-blog-links {
+    width: 106.62779235839844px;
+height: 24px;
+gap: 16px;
+angle: 0 deg;
+opacity: 1;
+margin: 0 auto;
+}
+
+.social-foot {
+    margin-top: 60px;
+}
+
+.blog-blurb {
+    width: 960px;
+height: 126px;
+border-radius: 16px;
+gap: 10px;
+opacity: 1;
+padding: 36px;
+background: #D8DBE2;
+color: #231F20;
+font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+margin: 0 auto;
+}
+
+.blog-text {
+    margin-bottom: 60px;
+}

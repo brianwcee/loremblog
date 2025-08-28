@@ -1,0 +1,209 @@
+
+
+/* fustat-latin-wght-normal */
+@font-face {
+  font-family: 'Fustat Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 800;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/fustat:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+body, html {
+    font-family: Fustat Variable;
+}
+a, a:visited {
+    text-decoration: none;
+    color: #231F20;
+}
+.drkgrn {
+    color: #00AB80;
+}
+
+.wht {
+    color: #FFFCFF;
+}
+
+.blk {
+    color: #231F20;
+}
+
+.btn {
+    background-color: #00AB80;
+    color: #FFFCFF;
+}
+
+.wht-btn {
+    background: #FFFCFF;
+    color: #666666;
+    border: 2px solid #D8DBE2;
+}
+
+.wht {
+    color: #FFFCFF;
+}
+
+.grn {
+    color: #00AB80;
+}
+
+/* . {
+    color: ;
+}
+
+. {
+    color: ;
+} */
+
+.big-title {
+    font-size: 64px;
+}
+
+.post {
+    font-family: Fustat Variable;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 120%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.post-header-title {
+    background: linear-gradient(to right, #00ab80, #2bc377, #5ad964, #8ced47, #c3ff00);
+    font-family: Fustat Variable;
+font-weight: 700;
+font-style: Bold;
+font-size: 36px;
+line-height: 85%;
+letter-spacing: -2%;
+text-align: center;
+vertical-align: middle;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.client-login {
+    text-decoration: none;
+    font-family: Fustat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+color: #231F20;
+
+}
+
+.post-title {
+font-family: Fustat Variable;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 120%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.post-sub-title {
+    font-family: Fustat Variable;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 12px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 10%;
+    vertical-align: middle;
+}
+
+.post-blurb {
+    font-family: Fustat Variable;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+.case-study-link {
+    font-family: Fustat Variable;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: -3%;
+vertical-align: middle;
+
+}
+
+.case-arrow {
+    position: relative;
+}
+
+.case-arrow:after {
+    content: "";
+    background-image: url('Arrow 7.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 50px;
+    position: absolute;
+    left: 57%;
+}
+
+.book-arrow {
+    position: relative;
+}
+
+.book-arrow:after {
+    content: "";
+    background-image: url('Arrow 7.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 50px;
+    position: absolute;
+    left: 108%;
+    top: 5%;
+}
+
+.post2-blurb {
+    font-family: Fustat Variable;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 120%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.highlight-title {
+    font-family: Fustat Variable;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 32px;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.highlight-blurb {
+    font-family: Fustat Variable;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 120%;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <title>Your awesome title | Write an awesome description for your new site here. You can edit this line in
+    _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site
+    description.</title>
+  <meta name="generator" content="Jekyll v4.4.1" />
+  <meta property="og:title" content="Your awesome title" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="description"
+    content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+  <meta property="og:description"
+    content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+  <link rel="canonical" href="http://localhost:4000/" />
+  <meta property="og:url" content="http://localhost:4000/" />
+  <meta property="og:site_name" content="Your awesome title" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:title" content="Your awesome title" />
+  <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Your awesome title","name":"Your awesome title","url":"http://localhost:4000/"}</script>
+  <!-- End Jekyll SEO tag -->
+  <link rel="stylesheet" href="/assets/assets/assets/assets//assets/img/main.css">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/assets/css/components.css">
+    <link rel="stylesheet" href="/assets/css/struct.css">
+    <link rel="stylesheet" href="/assets/css/type.css">
+    <link rel="stylesheet" href="/assets/css/typo.css">
+    <link rel="stylesheet" href="/assets/css/blog.css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $.get("https://public-api.wordpress.com/rest/v1.1/sites/en.blog.wordpress.com/posts/?number=2\&pretty=true", function (data) {
+            // $( ".result" ).html( data );
+            console.log(data);
+        });
+
+        $(document).ready(function(){
+        $('.js-view-case').on('click', function(e) {
+            console.log(e);
+            if(e.target.dataset.img) {
+                var clicked = e.target.dataset.img + '.png';
+                if(clicked) {
+                    $('.case-study-image').attr("src",clicked);
+
+                }
+            }
+            console.log(e);
+        });
+        var left = 0;
+        var right = 0;
+        var newLeft;
+        var newRight;
+        $('.js-case-left').on('click', function(e) {
+            $('.post2').css('position', 'relative');
+            if (!newLeft || newLeft == 0) {
+                left = left + 328;
+                newLeft = left;
+            } else {
+                left = newLeft + 328;
+                newLeft = left;
+            }
+            
+            $('.post2').css('right', left + 'px');
+            console.log(left);
+            console.log(newLeft);
+        });
+        $('.js-case-right').on('click', function(e) {
+            $('.post2').css('position', 'relative');
+            if (!newLeft || newLeft == 0) {
+                left = left - 328;
+                newLeft = left;
+            } else {
+                left = newLeft - 328;
+                newLeft = left;
+            }
+            
+            $('.post2').css('right', left + 'px');
+            console.log(left);
+            console.log(newLeft);
+        });
+        });
+
+        
+    </script>
+</head>
+
+<body>
+  <header class="site-header" role="banner">
+
+    <div class="wrapper">
+        
+      <nav class="site-nav  fit nav-fit">
+        <div>
+        <a class="site-title" rel="author" href="/"><span class="logo"></span></a>
+      <ul class="nav-list nav-link">
+            <li>solutions</li>
+            <li>company</li>
+            <li>resources</li>
+            <li>learn</li>
+          </ul>
+          </div>
+            <div>
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path
+                d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z" />
+            </svg>
+          </span>
+        </label>
+        
+        <!-- <div class="trigger"><a class="page-link" href="/about/">About</a> -->
+        <span class="call-nav">
+        <span class="login-logo"></span><a class="login client-login" href="#">client login</a>
+          <button class="book-call btn">book a discovery call</button>
+          </span>
+        </div>
+        </div>
+      </nav>
+      </div>
+    </div>
+  </header>
+  
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <div class="home">
+        <h2 class="post-list-heading">Posts</h2>
+    <ul class="post-list"><li><span class="post-meta">Aug 28, 2025</span>
+        <h3>
+          <a class="post-link" href="/jekyll/update/2025/08/28/welcome-to-jekyll.html">
+            Welcome to Jekyll!
+          </a>
+        </h3></li></ul>
+
+    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+
+    <div class="">
+        <div>
+            <div class="blog-image">
+                <img src="{{post.image1}}" alt="">
+            </div>
+            <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque.</p>
+            <div class="blog2-image">
+                <img src="/assets/img/8b0e1766cf2d3372ad03a9ebb290e04741addd0d.png" alt="">
+            </div>
+            <p>Horem ipsum dolor sit amet consectetur</p>
+            <p>
+                Horem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+                <br>
+                Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Morbi a eleifend magna. Nam metus lacus, porttitor eu mauris a, blandit ultrices nibh. Mauris sit amet magna non ligula vestibulum eleifend. Nulla varius volutpat turpis sed lacinia. Nam eget mi in purus lobortis eleifend. Sed nec ante dictum sem condimentum ullamcorper quis venenatis nisi. Proin vitae facilisis nisi, ac posuere leo.
+
+            </p>
+            <div class="blog-card fit">
+                <div class="blog-author-frame">
+                    <div class="blog-author-circle">
+                        <img src="{{post.authorImage}}" alt="">
+                    </div>
+                </div>
+                <div>
+                    <p class="blog-author">
+                        “Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.”
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+
+        <p>
+            Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+            <br>
+Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque.
+        </p>
+
+        <div class="blog-blurb">
+            <p>
+                “Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque.”
+            </p>
+        </div>
+
+        <div class="blog-text">
+            <p>Yorem ipsum:</p>
+        <p>
+            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. 
+            <br>
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+        </p>
+        </div>
+        
+
+        <div class="blog-footer-img">
+            <img src="/assets/img/8b0e1766cf2d3372ad03a9ebb290e04741addd0d.png" alt="">
+        </div>
+        <div class="social-foot">
+<div class="fit social-blog-links">
+                    <div class="social">
+                        <img src="/assets/img/fb.png" alt="">
+                    </div>
+                    <div class="social">
+                        <img src="/assets/img/ln.png" alt="">
+                    </div>
+                    <div class="social">
+                        <img src="/assets/img/x.png" alt="">
+                    </div>
+                </div>
+        </div>
+        
+
+        <div class="blog-controls fit">
+            <div>
+                <a href="">previous</a>
+            </div>
+            <div class="next">
+                next
+            </div>
+        </div>
+        </div>
+    </div>
+    <hr />
+        
+  </main>
+  <div class="fit sub-footer">
+    <div class="mobile-hide">
+      <ul>
+        <li><img src="assets/assets/assets/assets//assets/img/footer-logo.png" alt="" class="footer-logo"></li>
+        <li class="sub-footer-logo-text footer-logo">Yorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </li>
+        <li>
+          <div class="fit">
+            <div class="social">
+              <img src="assets/assets/assets/assets//assets/img/fb.png" alt="">
+            </div>
+            <div class="social">
+              <img src="assets/assets/assets/assets//assets/img/ln.png" alt="">
+            </div>
+            <div class="social">
+              <img src="assets/assets/assets/assets//assets/img/x.png" alt="">
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="tablet-show fit">
+      <ul class="sub-footer-link">
+        <li class="sub-footer-title grn">Solutions</li>
+        <li>Yorem</li>
+        <li>Vorem</li>
+        <li>Corem</li>
+        <li>Sorem</li>
+        <li>Norem</li>
+      </ul>
+      <ul class="sub-footer-link">
+        <li class="sub-footer-title grn">Company</li>
+        <li>Jorem</li>
+        <li>Lorem</li>
+      </ul>
+      <ul class="sub-footer-link">
+        <li class="sub-footer-title grn">Resources</li>
+        <li>Vorem</li>
+        <li>Borem</li>
+        <li>Yorem</li>
+        <li>Horem</li>
+        <li>Norem</li>
+      </ul>
+      <ul class="sub-footer-link">
+        <li class="sub-footer-title grn">Insight</li>
+        <li>Jorem</li>
+        <li>Morem</li>
+        <li>Forem</li>
+        <li>Jorem</li>
+        <li>Corem</li>
+      </ul>
+    </div>
+    <div class="mobile-fit desktop-hide">
+      <div>
+        <ul class="sub-footer-link">
+          <li class="sub-footer-title grn">Solutions</li>
+          <li>Yorem</li>
+          <li>Vorem</li>
+          <li>Corem</li>
+          <li>Sorem</li>
+          <li>Norem</li>
+        </ul>
+        <ul class="sub-footer-link">
+          <li class="sub-footer-title grn">Company</li>
+          <li>Jorem</li>
+          <li>Lorem</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="sub-footer-link">
+          <li class="sub-footer-title grn">Resources</li>
+          <li>Vorem</li>
+          <li>Borem</li>
+          <li>Yorem</li>
+          <li>Horem</li>
+          <li>Norem</li>
+        </ul>
+        <ul class="sub-footer-link">
+          <li class="sub-footer-title grn">Insight</li>
+          <li>Jorem</li>
+          <li>Morem</li>
+          <li>Forem</li>
+          <li>Jorem</li>
+          <li>Corem</li>
+        </ul>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="mobile-show mobile-sub-footer-below desktop-hide">
+    <ul class="fit mobile-footer-stretch">
+      <div>
+        <li><img src="assets/assets/assets/assets//assets/img/footer-logo.png" alt="" class="footer-logo"></li>
+      </div>
+      <div>
+        <li class="sub-footer-logo-text footer-logo">Yorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </li>
+        <li>
+          <div class="fit">
+            <div class="social">
+              <img src="assets/assets/assets/assets//assets/img/fb.png" alt="">
+            </div>
+            <div class="social">
+              <img src="assets/assets/assets/assets//assets/img/ln.png" alt="">
+            </div>
+            <div class="social">
+              <img src="assets/assets/assets/assets//assets/img/x.png" alt="">
+            </div>
+          </div>
+        </li>
+      </div>
+
+    </ul>
+  </div>
+  <footer class="site-footer h-card">
+    <data class="u-url" href="/"></data>
+
+    <div class="wrapper">
+
+      <h2 class="footer-heading">Your awesome title</h2>
+
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+          <ul class="contact-list">
+            <li class="p-name">Your awesome title</li>
+            <li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col-2">
+          <ul class="social-media-list">
+            <li><a href="https://github.com/jekyll"><svg class="svg-icon">
+                  <use xlink:href="/assets/assets/assets/assets//assets/img/minima-social-icons.svg#github"></use>
+                </svg> <span class="username">jekyll</span></a></li>
+            <li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon">
+                  <use xlink:href="/assets/assets/assets/assets//assets/img/minima-social-icons.svg#twitter"></use>
+                </svg> <span class="username">jekyllrb</span></a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-col-3">
+          <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear
+            in your document head meta (for Google search results) and in your feed.xml site description.</p>
+        </div>
+      </div>
+      <div>
+                <p class="footer-email">Torem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <input type="text" value="email" class="footer-input"><button class="footer-sub-title">submit</button>
+
+            </div>
+            <div class="fit footer-link">
+                <p>Privacy Policy</p>
+                <p>Terms of Use</p>
+                <p>Copyright © 2025 Gorem ipsum dolor sit amet elit.</p>
+            </div>
+
+    </div>
+
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+.frame {
+    background-image: linear-gradient(to bottom, #d8dbe2, #e2e3e9, #ecebf0, #f6f3f8, #fffcff);
+}
+
+.grn-frame {
+    background-image: linear-gradient(to right, #c3ff00, #8ced47, #5ad964, #2bc377, #00ab80);
+}
+
+.post, .post2 {
+    background-image: linear-gradient(to bottom, #d8dbe2, #e2e3e9, #ecebf0, #f6f3f8, #fffcff);
+}
+
+.faq {
+    background-image: linear-gradient(to bottom, #d8dbe2, #e2e3e9, #ecebf0, #f6f3f8, #fffcff);
+}
+
+body {
+    background: #FFFCFF;
+}
+
+.main {
+        background-image: url('../img/mainbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media (width <= 1250px) {
+                background-size: contain;
+            }
+}
+
+.map {
+        background-image: url('../img/map.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cta-block {
+    background-image: linear-gradient(to right, #c3ff00, #88ee4c, #52da6d, #1fc381, #00ab8a);
+}
+
+footer {
+    background-color: #000;
+}
+
+.link-button {
+    background: #FFFCFF;
+}
+
+.link-button:hover {
+    background-image: linear-gradient(to right, #666666, #4c4c4c, #343434, #1d1d1d, #000000);
+    color: #FFFCFF;
+    border: 2px solid #D8DBE2
+}
+
+
+
