@@ -35,6 +35,7 @@ plugins:
   - jekyll-feed
 
 paginate: 5
+root: /
 
 
 # Exclude from processing.
