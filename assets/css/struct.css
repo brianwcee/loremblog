@@ -138,6 +138,7 @@ margin-left: 24px;
   flex-direction: column;
   max-width: -webkit-calc(100vw - (30px * 2))!important;
   max-width: calc(100vw - 30px * 2)!important;
+  margin: auto;
 }
 
 header,
